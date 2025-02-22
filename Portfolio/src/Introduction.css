@@ -22,8 +22,3 @@ h1 {
 .colorwhite{
     color: white;
 }
-@media only screen and (max-width: 1000px) {
-    h1{
-        transform: scale(0.5);
-    }
-}

@@ -25,32 +25,26 @@ button:hover{
     display: flex;
 }
 .pop-up{
-    border: solid;
-    background-color: blue;
+    position: fixed;
+    
+    left: 80px;
+    width: 1040px;
+    height: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    position: fixed;
+    background-color: #697565;
+    border: none;
+    border-radius: 50px;
+    transform: translate(-120%);
+    transition: all 0.5s;
     z-index: 1000;
+       
+}
+.slide-in {
+    transform: translateX(0);
+}
+slide-out {
+    transform: translateX(-120%);
 }
 
-@media only screen and (max-width: 1300px) {
-    button {
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-    .buttondiv{
-        flex-direction: column; 
-        align-items: flex-start;
-        padding:0;
-    }
-
-}
-
-@media only screen and (max-width: 400px) {
-    button {
-        transform: scale(0.8);
-        margin-left: -20px;
-        margin-bottom: -20px
-    }
-}

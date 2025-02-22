@@ -15,11 +15,9 @@ function Buttons(){
                 <button> Portfolio </button>
                 <button> Contact </button>        
             </div>
-            {buttonStatus && 
-            <div className='pop-up'>
+            <div className={`pop-up ${buttonStatus ? "slide-in" : "slide-out"}`}>
                 hello
             </div>
-            }
         </>
     );
 
