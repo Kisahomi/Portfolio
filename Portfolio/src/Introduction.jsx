@@ -1,9 +1,15 @@
 import './Introduction.css'
+import Buttons from './Buttons';
 
 function Introduction() {
   
   return(
-    <div className="test">test</div>
+   <>
+   <div>
+      
+   </div>
+
+   </>
   );
 }
 
