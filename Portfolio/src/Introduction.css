@@ -1,1 +1,29 @@
 
+@font-face {
+    font-family: consolas;
+    src: url(CONSOLA.ttf);
+}
+.introdiv{
+    padding: 75px;
+    margin-top: 0px;
+}
+h1 {
+    font-family: consolas;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 75px;
+}
+.colorgray{
+    color: #737373;
+}
+.colorblue{
+    color: #1893f8;
+}
+.colorwhite{
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    h1{
+        transform: scale(0.5);
+    }
+}
