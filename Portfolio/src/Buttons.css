@@ -24,9 +24,8 @@ button:hover{
     padding: 75px;
     display: flex;
 }
-.pop-up{
+.about-pop-up{
     position: fixed;
-    
     left: 80px;
     width: 1040px;
     height: 50%;
@@ -37,14 +36,58 @@ button:hover{
     border: none;
     border-radius: 50px;
     transform: translate(-120%);
-    transition: all 0.5s;
-    z-index: 1000;
-       
+    transition: all 0.3s;
+    z-index: 1000;    
+}
+.resume-pop-up{
+    position: fixed;
+    left: 80px;
+    width: 1040px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #697565;
+    border: none;
+    border-radius: 50px;
+    transform: translate(-120%);
+    transition: all 0.3s;
+    z-index: 1000;    
+}
+.portfolio-pop-up{
+    position: fixed;
+    left: 80px;
+    width: 1040px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #697565;
+    border: none;
+    border-radius: 50px;
+    transform: translate(-120%);
+    transition: all 0.3s;
+    z-index: 1000;    
+}
+.contact-pop-up{
+    position: fixed;
+    left: 80px;
+    width: 1040px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #697565;
+    border: none;
+    border-radius: 50px;
+    transform: translate(-120%);
+    transition: all 0.3s;
+    z-index: 1000;    
 }
 .slide-in {
     transform: translateX(0);
 }
-slide-out {
+.slide-out {
     transform: translateX(-120%);
 }
 

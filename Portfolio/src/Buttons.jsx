@@ -3,20 +3,53 @@ import React, {useState} from 'react';
 
 function Buttons(){
 
-    const [buttonStatus, setStatus] = useState(false);
-    const toggleStatus = () =>  {
-        setStatus(!buttonStatus);
+    const [aboutButtonStatus, setAboutStatus] = useState(false);
+    const [resumeButtonStatus, setResumeStatus] = useState(false);
+    const [portfolioButtonStatus, setPortfolioStatus] = useState(false);
+    const [contactButtonStatus, setContactStatus] = useState(false);
+    const toggleAboutStatus = () =>  {
+        setAboutStatus(!aboutButtonStatus);
+        setResumeStatus(false);
+        setPortfolioStatus(false);
+        setContactStatus(false);
+    }
+    const toggleResumeStatus = () =>  {
+        setResumeStatus(!resumeButtonStatus);
+        setAboutStatus(false);
+        setPortfolioStatus(false);
+        setContactStatus(false);
+    }
+    const togglePortfolioStatus = () =>  {
+        setPortfolioStatus(!portfolioButtonStatus);
+        setAboutStatus(false);
+        setResumeStatus(false);
+        setContactStatus(false);
+    }
+    const toggleContactStatus = () =>  {
+        setContactStatus(!contactButtonStatus);
+        setAboutStatus(false);
+        setResumeStatus(false);
+        setPortfolioStatus(false);
     }
     return (
         <>
             <div className='buttondiv'>
-                <button onClick={() => toggleStatus()}> About me </button>
-                <button> {buttonStatus ? "on" : "off"} </button>
-                <button> Portfolio </button>
-                <button> Contact </button>        
+                <button onClick={() => toggleAboutStatus()}> About me </button>
+                <button onClick={() => toggleResumeStatus()}> Resume </button>
+                <button onClick={() => togglePortfolioStatus()}> Portfolio </button>
+                <button onClick={() => toggleContactStatus()}> Contact </button>        
             </div>
-            <div className={`pop-up ${buttonStatus ? "slide-in" : "slide-out"}`}>
-                hello
+            <div className={`about-pop-up ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
+                about
+            </div>
+            <div className={`resume-pop-up ${resumeButtonStatus ? "slide-in" : "slide-out"}`}>
+                resume
+            </div>
+            <div className={`portfolio-pop-up ${portfolioButtonStatus ? "slide-in" : "slide-out"}`}>
+                Portfolio
+            </div>
+            <div className={`contact-pop-up ${contactButtonStatus ? "slide-in" : "slide-out"}`}>
+                contact
             </div>
         </>
     );
