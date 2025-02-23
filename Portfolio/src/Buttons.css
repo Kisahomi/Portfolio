@@ -15,12 +15,9 @@ button {
     ;
     font-size: large;
 }
-
-
 button:hover{
     transform: scale(1.1);
 }
-
 .buttondiv{
     padding: 75px;
     display: flex;
@@ -38,7 +35,6 @@ button:hover{
     border-color: rgb(69, 69, 69);
     border-width: 0.1rem;
     border-left: 0;
- 
     transform: translate(-120%);
     transition:  0.4s;
     z-index: 1000;    
@@ -53,9 +49,23 @@ button:hover{
     color: rgb(192, 192, 192);
 }
 .pop-up-card-row-1{
-    margin: 20px;
-    border: solid;
-
+    margin-left: 110px;
+    margin-right: 80px;
+}
+.pop-up-card-row-1 h2{
+    position: relative;
+    color: white;
+}
+.pop-up-card-row-1 h2::after{
+    content: '';
+    position: absolute;
+    background: rgb(181,76,20);
+    background: linear-gradient(90deg, rgba(181,76,20,1) 0%, rgba(222,127,18,1) 46%, rgba(255,171,0,1) 100%);
+    width: 775px;
+    height:10px;
+    bottom: 30%;
+    margin-left: 10px;
+    border-radius: 15px;
 }
 .pop-up-card-row-2{
     display: flex;
@@ -77,8 +87,6 @@ button:hover{
     box-shadow: -0.5px -0.5px 0px 0px  #b2b2b2;
     width: 400px;
     height: 200px;
-
-
 }
 .slide-in {
     transform: translateX(0);

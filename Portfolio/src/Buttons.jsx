@@ -43,8 +43,10 @@ function Buttons(){
                 <div className='pop-up-card'>
                     <div className='pop-up-card-row-1'>
                         <h2>About me</h2>
-                        I'm an aspiring front-end developer and student, passionate about web and graphic design. I enjoy turning ideas into simple, beautiful, and user-friendly designs.
-
+                        Hi, my name is Jemuel Lucas, an aspiring programmer who is ready to take on the challenge of developing technological innovations to make people's lives easier.
+                        <br/>
+                        <br/>
+                        I am dedicated in enhancing my skills in different fields of computer science as it is my passion.
                     </div>
                     <div className='pop-up-card-row-2'>
                         <div className='aboutCard'>
