@@ -34,7 +34,7 @@ function Buttons(){
     return (
         <>
             <div className='buttondiv'>
-                <button onClick={() => toggleAboutStatus()}> About me </button>
+                <button onClick={() => {toggleAboutStatus()}}> About </button>
                 <button onClick={() => toggleResumeStatus()}> Resume </button>
                 <button onClick={() => togglePortfolioStatus()}> Portfolio </button>
                 <button onClick={() => toggleContactStatus()}> Contact </button>        
@@ -42,7 +42,9 @@ function Buttons(){
             <div className={`pop-up ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
                 <div className='pop-up-card'>
                     <div className='pop-up-card-row-1'>
-                        adasd
+                        <h2>About me</h2>
+                        I'm an aspiring front-end developer and student, passionate about web and graphic design. I enjoy turning ideas into simple, beautiful, and user-friendly designs.
+
                     </div>
                     <div className='pop-up-card-row-2'>
                         <div className='aboutCard'>
