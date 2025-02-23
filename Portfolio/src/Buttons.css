@@ -31,9 +31,6 @@ button:hover{
     width: 1120px;
     height: 70%;
     bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(213,213,213,1) 0%, rgba(198,196,196,1) 100%);
     border: none;
@@ -43,6 +40,21 @@ button:hover{
     transform: translate(-120%);
     transition:  0.4s;
     z-index: 1000;    
+}
+.aboutCard{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(213,213,213,1) 0%, rgba(203,202,202,1) 100%);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 2px  #acacaa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 250px;
+    height: 200px;
+    padding:5px;
+
 }
 .slide-in {
     transform: translateX(0);

@@ -39,8 +39,25 @@ function Buttons(){
                 <button onClick={() => togglePortfolioStatus()}> Portfolio </button>
                 <button onClick={() => toggleContactStatus()}> Contact </button>        
             </div>
-            <div className={`pop-up about ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
-                about
+            <div className={`pop-up ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
+                <div>
+                    <div className='aboutCard'>
+                        about
+                    </div>
+                    <div className='aboutCard'>
+                        about
+                    </div>
+                </div>
+                <div>
+                    <div className='aboutCard'>
+                        about
+                    </div>
+                    <div className='aboutCard'>
+                        about
+                    </div>
+                </div>
+
+                              
             </div>
             <div className={`pop-up ${resumeButtonStatus ? "slide-in" : "slide-out"}`}>
                 resume
