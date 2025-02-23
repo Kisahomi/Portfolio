@@ -40,24 +40,29 @@ function Buttons(){
                 <button onClick={() => toggleContactStatus()}> Contact </button>        
             </div>
             <div className={`pop-up ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
-                <div>
-                    <div className='aboutCard'>
-                        about
+                <div className='pop-up-card'>
+                    <div className='pop-up-card-row-1'>
+                        adasd
                     </div>
-                    <div className='aboutCard'>
-                        about
+                    <div className='pop-up-card-row-2'>
+                        <div className='aboutCard'>
+                            about
+                        </div>
+                        <div className='aboutCard'>
+                            about
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div className='aboutCard'>
-                        about
+                    <div className='pop-up-card-row-3'>
+                        <div className='aboutCard'>
+                            about
+                        </div>
+                        <div className='aboutCard'>
+                            about
+                        </div>
                     </div>
-                    <div className='aboutCard'>
-                        about
-                    </div>
-                </div>
 
-                              
+
+                </div>                
             </div>
             <div className={`pop-up ${resumeButtonStatus ? "slide-in" : "slide-out"}`}>
                 resume
