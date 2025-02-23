@@ -39,16 +39,16 @@ function Buttons(){
                 <button onClick={() => togglePortfolioStatus()}> Portfolio </button>
                 <button onClick={() => toggleContactStatus()}> Contact </button>        
             </div>
-            <div className={`about-pop-up ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
+            <div className={`pop-up about ${aboutButtonStatus ? "slide-in" : "slide-out"}`}>
                 about
             </div>
-            <div className={`resume-pop-up ${resumeButtonStatus ? "slide-in" : "slide-out"}`}>
+            <div className={`pop-up ${resumeButtonStatus ? "slide-in" : "slide-out"}`}>
                 resume
             </div>
-            <div className={`portfolio-pop-up ${portfolioButtonStatus ? "slide-in" : "slide-out"}`}>
+            <div className={`pop-up ${portfolioButtonStatus ? "slide-in" : "slide-out"}`}>
                 Portfolio
             </div>
-            <div className={`contact-pop-up ${contactButtonStatus ? "slide-in" : "slide-out"}`}>
+            <div className={`pop-up ${contactButtonStatus ? "slide-in" : "slide-out"}`}>
                 contact
             </div>
         </>

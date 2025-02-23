@@ -1,11 +1,12 @@
 
 button {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(198,196,196,1) 73%);
     border: none;
-    border-radius: 65px;
-    box-shadow: 5px 5px 5px 3px  #3C3D37;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px 2px  #3C3D37;
     width: 200px;
     height: 100px;
-    background-color: #ECDFCC;
     cursor: pointer;
     margin-right: 80px;
     margin-top: 20px;
@@ -24,64 +25,23 @@ button:hover{
     padding: 75px;
     display: flex;
 }
-.about-pop-up{
+.pop-up{
     position: fixed;
-    left: 80px;
-    width: 1040px;
-    height: 50%;
+    left: 0px;
+    width: 1120px;
+    height: 70%;
+    bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #697565;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(213,213,213,1) 0%, rgba(198,196,196,1) 100%);
     border: none;
-    border-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 3px 3px 3px 2px  #3C3D37;
     transform: translate(-120%);
-    transition: all 0.3s;
-    z-index: 1000;    
-}
-.resume-pop-up{
-    position: fixed;
-    left: 80px;
-    width: 1040px;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #697565;
-    border: none;
-    border-radius: 50px;
-    transform: translate(-120%);
-    transition: all 0.3s;
-    z-index: 1000;    
-}
-.portfolio-pop-up{
-    position: fixed;
-    left: 80px;
-    width: 1040px;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #697565;
-    border: none;
-    border-radius: 50px;
-    transform: translate(-120%);
-    transition: all 0.3s;
-    z-index: 1000;    
-}
-.contact-pop-up{
-    position: fixed;
-    left: 80px;
-    width: 1040px;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #697565;
-    border: none;
-    border-radius: 50px;
-    transform: translate(-120%);
-    transition: all 0.3s;
+    transition:  0.4s;
     z-index: 1000;    
 }
 .slide-in {
