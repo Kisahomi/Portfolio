@@ -1,0 +1,9 @@
+
+.main-container{
+    display: flex;
+    overflow-x: hidden;
+}
+.content{
+    flex:1;
+    padding-left: 80px;
+}

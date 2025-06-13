@@ -1,0 +1,26 @@
+
+.bar{
+    background-color: var(--panel);
+    border:1px solid  var(--border);
+    
+    border-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+    
+}
+.home, .skills, .projects, .education{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: var(--ui);
+    cursor: pointer;
+}
+.home:hover, .skills:hover, .projects:hover, .education:hover {
+    color: white;
+}

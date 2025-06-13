@@ -8,17 +8,75 @@
     margin-top: 0px;
 }
 h1 {
-    font-family: consolas;
+    font-family: var(--font-code);
     font-style: normal;
     font-weight: 100;
-    font-size: 75px;
+    font-size: 90px;
 }
 .colorgray{
-    color: #737373;
+    color: #535353;
 }
 .colorblue{
-    color: #1893f8;
+    color: #1a94f8;
 }
 .colorwhite{
     color: white;
 }
+.introparent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+    
+.introdiv2 { grid-area: 5 / 1 / 7 / 6; 
+height: 100%;
+}
+.introdiv1 { 
+    grid-area: 1 / 1 / 5 / 6;
+    display: flex;  
+    align-items: center;
+    padding-left: 80px;
+    height: 100%;
+}
+.about{
+
+    height: 100%;
+    width: 100%;
+    background-color: var(--panel);
+    font-family: var(--font-ui);
+    border-top: 1px solid var(--border);
+
+    padding-left: 24px;
+    color: var(--ui);
+}
+.about-buttons{
+    display: flex;
+    gap: 20px;
+    height: 32px;
+    margin-top: 12px;
+}
+.about-buttons button{
+    all: unset;
+    padding: 4px;
+    cursor: pointer;
+}
+.about-buttons button:hover{
+    color: white;
+}
+.about-buttons .active{
+    border-bottom: 1px solid #1a94f8;
+    color: white;
+}
+.terminalContent{
+    padding-top: 16px;
+    font-family: var(--font-code);
+    color: white;
+}
+
+
+
+
+
