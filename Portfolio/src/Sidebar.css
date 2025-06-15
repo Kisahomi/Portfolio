@@ -11,7 +11,7 @@
     width: 80px;
     
 }
-.home, .skills, .projects, .education{
+.nav-icons a{
     display: flex;
     width: 80px;
     height: 80px;
@@ -21,6 +21,13 @@
     color: var(--ui);
     cursor: pointer;
 }
-.home:hover, .skills:hover, .projects:hover, .education:hover {
+.nav-icons a:hover{
     color: white;
+}
+
+.nav-icons a.active {
+    color: white;
+    background-color: var(--accent); /* optional highlight background */
+    border-left: 2px solid #1a94f8;
+    
 }
