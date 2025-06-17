@@ -16,7 +16,7 @@
     background-color: var(--panel);
     border-right: 1px solid var(--border);
     font-family: var(--font-ui);
-    border-bottom: 1px solid var(--border);
+
 }
 .panel-heading{
     padding: 16px;

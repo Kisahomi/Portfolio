@@ -1,4 +1,5 @@
 import './Projects.css';
+import CompELearn from './Projects/CompE-Learn';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faX } from '@fortawesome/free-solid-svg-icons';
@@ -60,7 +61,7 @@ function Projects(){
                     ))}
                 </div>
                 <div className='code-content'>
-                    {activeFile === 'CompE-Learn.jsx' && <p>This is CompE-Learn.jsx content.</p>}
+                    {activeFile === 'CompE-Learn.jsx' && <CompELearn />}
                     {activeFile === 'Testing.jsx' && <p>This is Testing.jsx content.</p>}
                 </div>
             </div>

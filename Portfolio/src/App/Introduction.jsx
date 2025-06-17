@@ -24,7 +24,7 @@ function Introduction() {
           <br/>
           <span class="colorgray">&lt;/</span><span class="colorblue">div</span><span class="colorgray">&gt;</span>
         </h1>
-        </div>
+      </div>
     </div>
     <div class="introdiv2"> 
     <div className='about'>

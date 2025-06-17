@@ -1,4 +1,6 @@
 
 .educparent{
-    height: 100vh;
+    height: 50vh;
+    background: var(--panel);
+    border-top: 1px solid var(--border);
 }

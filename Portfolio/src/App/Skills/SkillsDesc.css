@@ -1,0 +1,21 @@
+
+
+.skill-description{
+    font-family: var(--font-ui);
+    color: var(--white);
+    margin-top: 28px;
+    display: flex;
+    gap:100px;
+}
+.skillTech{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.skill-description h1{
+    font-size: 40px;
+}
+.skill-description li{
+    font-size: 20px;
+    margin-bottom: 8px;
+}

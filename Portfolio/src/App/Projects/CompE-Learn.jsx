@@ -1,0 +1,41 @@
+
+
+
+function CompELearn(){
+    return(
+        <>
+            <div>
+            <p style={{fontSize:'20px'}}>
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;1</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;2</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorblue">function </span><span class="coloryellow">CompELearn</span><span class="colorlightorange">() {'{'}</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorviolet">return (</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">div</span> <span class="colorlightblue">className</span><span class="colorwhite">=</span><span class="colororange">'CompE-Learn'</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><span class="colorwhite">Description:</span><span class="colorgray">&lt;/</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">p</span><span class="colorgray">&gt;</span><span class="colorwhite">An authoring tool that lets SMEs create courses designed specifically for Metrobank Foundation.</span><span class="colorgray">&lt;/</span><span class="colorblue">p</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><span class="colorwhite">Role:</span><span class="colorgray">&lt;/</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">p</span><span class="colorgray">&gt;</span><span class="colorwhite">I was the quality assurance and I also helped in frontend coding and designing.</span><span class="colorgray">&lt;/</span><span class="colorblue">p</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><span class="colorwhite">Tech Stack:</span><span class="colorgray">&lt;/</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">p</span><span class="colorgray">&gt;</span><span class="colorwhite">ReactJS, Laravel, MySQL.</span><span class="colorgray">&lt;/</span><span class="colorblue">p</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><span class="colorwhite">Features:</span><span class="colorgray">&lt;/</span><span class="colorblue">h2</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">ul</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><span class="colorwhite">Create courses</span><span class="colorgray">&lt;/</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><span class="colorwhite">Create/Upload content</span><span class="colorgray">&lt;/</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><span class="colorwhite">Create assessment tests</span><span class="colorgray">&lt;/</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><span class="colorwhite">Upload certificate</span><span class="colorgray">&lt;/</span><span class="colorblue">li</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;/</span><span class="colorblue">ul</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;</span><span class="colorblue">img src</span><span class="colorwhite">=</span><span class="colororange">''</span><span class="colorgray"> /&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;/</span><span class="colorblue">div</span><span class="colorgray">&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">&lt;/&gt;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorviolet">{')'}</span><span class="colorwhite">;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">23</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorlightorange">{'}'}</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">24</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="colorviolet">export default</span> <span class="coloryellow">CompELearn</span><span class="colorwhite">;</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="colorgray">25</span><br/>
+            </p>
+            </div>
+        </>
+    );
+}
+
+export default CompELearn;

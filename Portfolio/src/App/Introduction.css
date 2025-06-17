@@ -13,15 +13,7 @@ h1 {
     font-weight: 100;
     font-size: 90px;
 }
-.colorgray{
-    color: #535353;
-}
-.colorblue{
-    color: #1a94f8;
-}
-.colorwhite{
-    color: white;
-}
+
 .introparent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

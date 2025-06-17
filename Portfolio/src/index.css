@@ -2,7 +2,7 @@
 :root{
     --background: #212122;
     --border:#3c3c3c;
-    --white:#FFFFFF;
+    --white:rgb(231, 231, 231);
     --panel: #161616;
     --ui:#7e7e7e;
     --font-code: Consolas, monospace;
@@ -22,5 +22,37 @@ html{
 body {
     background-color: var(--background);
     margin: 0;
+}
+.colorgray{
+    color: #535353;
+    font-family: var(--font-code);
+}
+.colorblue{
+    color: #0465b4;
+    font-family: var(--font-code);
+}
+.colorwhite{
+    color: rgb(231, 231, 231);
+    font-family: var(--font-code);
+}
+.colorlightblue{
+    color: #6abafc;
+    font-family: var(--font-code);
+}
+.colororange{
+    color: #d67900;
+    font-family: var(--font-code);
+}
+.coloryellow{
+    color: rgb(219, 219, 107);
+    font-family: var(--font-code);
+}
+.colorlightorange{
+    font-family: var(--font-code);
+    color: rgb(255, 188, 63);
+}
+.colorviolet{
+    font-family: var(--font-code);
+    color: rgb(175, 1, 175);
 }
 
